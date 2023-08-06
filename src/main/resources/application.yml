@@ -1,13 +1,13 @@
 server:
-port: 7009
+  port: 7009
 spring:
-application:
-name: ware-jwt-token
+  application:
+    name: ware-jwt-token
 config:
-jwt:
-# ????
-secret: iwqjhda8232bjgh432[cicada-smile]
-# token????
-expire: 3600
-# header ??
-header: token
+  jwt:
+  # ????
+    secret: iwqjhda8232bjgh432[cicada-smile]
+  #  token????
+    expire: 3600
+  # header ??
+    header: token
